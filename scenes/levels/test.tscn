@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://bux8f78cla800"]
+
+[ext_resource type="Script" uid="uid://bsuauwauq5uq0" path="res://scripts/player/player_controller.gd" id="1_8153q"]
+[ext_resource type="Script" uid="uid://caim1q72qk3lm" path="res://scripts/systems/movement_system.gd" id="2_52kye"]
+
+[node name="Test" type="Node2D" unique_id=1223863232]
+
+[node name="MovementSystem" type="Node" parent="." unique_id=1258977049]
+script = ExtResource("2_52kye")
+metadata/_custom_type_script = "uid://caim1q72qk3lm"
+
+[node name="Player" type="CharacterBody2D" parent="." unique_id=239283634]
+script = ExtResource("1_8153q")
