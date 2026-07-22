@@ -1,0 +1,11 @@
+[gd_resource type="Resource" format=3 uid="uid://dmxrpdxjxn3re"]
+
+[resource]
+script = ExtResource("res://scripts/player/player_data.gd")
+title = "测试词条"
+strength = 0
+constitution = 0
+insight = 0
+agility = 0
+speech = 0
+free_points = 20
