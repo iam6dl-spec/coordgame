@@ -18,8 +18,11 @@ config/icon="res://icon.svg"
 [autoload]
 
 EventBus="*uid://c1y8x5xyiy0ef"
-GameManager="*uid://b3285t6yo33nq"
 AudioManager="*uid://g17fc3tfipm0"
+UiManager="*uid://dujsx3do5j00f"
+PlayerManager="*uid://boefeflc4qeoi"
+EntityManager="*uid://dhpu683nygdnk"
+GameManager="*uid://b3285t6yo33nq"
 
 [display]
 

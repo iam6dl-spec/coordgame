@@ -33,3 +33,4 @@ func apply_preset(preset_data: PlayerData):
 
 func total_spent() -> int:
 	return strength + constitution + insight + agility + speech
+	
